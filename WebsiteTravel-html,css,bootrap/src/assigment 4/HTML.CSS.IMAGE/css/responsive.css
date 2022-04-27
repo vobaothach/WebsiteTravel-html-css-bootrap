@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 767px){
+    /* For mobile */
+
+ [class*="col-"]{
+    width: 100%;}
+.banner1{display:none;
+}
+.menu{
+    padding: 5px;
+    background-color: #708090;
+    justify-content: center;
+}
+.menu a{
+    font-size: 10px;
+}
+
+.left{
+    width: 100%;
+}
+.right{
+    width: 100%;
+}
+ul>li{
+    color: cornsilk;
+    padding:5px;} 
+}
+.menu ul{
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 10px;
+    float: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+/* phần ipad */
+.banner1{
+    display:none;
+}
+
+.menu{
+    padding: 5px;
+    display: inline-block;
+    background-color: #708090;
+    justify-content: center;}
+}
+#image{
+    background-color: rgb(204, 204, 204);
+}
